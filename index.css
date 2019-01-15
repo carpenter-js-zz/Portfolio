@@ -1,0 +1,53 @@
+body {
+  display: block;
+}
+
+.header {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.skillsLists {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.projects > h2 {
+  text-align: center;
+}
+
+.projDesc {
+  padding: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.showProject1 {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.showProject2 {
+  flex-direction: row;
+  display: flex;
+}
+
+.showProject3 {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.contactInfo {
+  border-top: 1px solid lightgray;
+  margin-top: 7px;
+}
