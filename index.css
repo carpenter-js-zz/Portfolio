@@ -1,4 +1,5 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   display: block;
 }
 
@@ -8,6 +9,37 @@ body {
   width: 50%;
   text-align: center;
 }
+
+.headers {
+  margin-top: 5px;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+/* navbar styles */
+.navBar {
+  position: fixed;
+  width: 99%;
+  top: 0;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: grey;
+}
+
+.navList > li {
+  padding: 5px 10px 5px 10px;
+}
+
+/* end navbar styles */
 
 .skillsLists {
   display: flex;
@@ -31,6 +63,11 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.projectImage {
+  width: 450px;
+  height: 450px;
+} 
 
 .showProject1 {
   flex-direction: row-reverse;

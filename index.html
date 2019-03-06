@@ -5,11 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Barrett Carpenter Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-  <script src="index.js"></script>
 </head>
 
 <body>
+
+  <nav class="navBar">
+    <ul class="navList">
+      <li>
+        <a class="navAbout" href="#about">About</a>
+      </li>
+
+      <li>
+        <a class="navProject" href="#projects">Projects</a>
+      </li>
+
+      <li>
+        <a class="navContact" href="#contact">Contact Me</a>
+      </li>
+
+      <li>
+        <a class="navSkills" href="#skills">Skills</a>
+      </li>
+    </ul>
+  </nav>
 
   <header class="header">
     <div class="headers">
@@ -73,17 +93,22 @@
       <h2>My Work</h2>
       
       <section class="project">
-        <h3>Project 1</h3>
+        <h3>Velo Maps</h3>
       
         <article class="showProject1">
-          <img src="https://i.imgur.com/12WQPk4b.png" title="Velo Maps Screen Shot" alt="project screenshot" /> 
+            <!-- <a href="https://imgur.com/NIei5JJ"><img src="https://i.imgur.com/NIei5JJ.png" title="source: imgur.com" /></a> -->
+          <img class="projectImage" src="https://i.imgur.com/NIei5JJ.png" title="Velo Maps Screen Shot" alt="project screenshot" /> 
           <p class="projDesc">
-            Normally, both your asses would be dead as fucking fried chicken, 
-            but you happen to pull this shit while I'm in a transitional period 
-            so I don't wanna kill you, I wanna help you. But I can't give 
-            you this case, it don't belong to me. Besides, I've already been 
-            through too much shit this morning over this case to hand it over 
-            to your dumb ass.
+            <a target=“_blank” href="https://velo-maps.herokuapp.com/">Velo Maps</a> is a web app that makes it easy to plan a big ride by providing users
+            access to a Google Map with a bike map overlay that they can draw on, and then save
+            that drawing in a database for easy access. I built this app because I had looked
+            for a similer tool to use for planning my own bike commutes and could not find 
+            anything like this. It seemed like the technology was all there waiting to be utilized, 
+            but no one had put it all together in an easy to use tool. So instead of waiting for 
+            someone else to build it for me, I made it myself. I wrote the code for Velo Maps
+            in Javascript, using React for the front end, Node/Express for the server, and 
+            Mongo for the backend. It is deployed and hosted with heroku, check it out
+            <a target=“_blank” href="https://velo-maps.herokuapp.com/">here</a>.
           </p>
         </article>
       </section>
@@ -92,7 +117,7 @@
         <h3>Project 2</h3>
         
         <article class="showProject2">
-          <img src="https://via.placeholder.com/450" alt="project screenshot" /> 
+          <img class="projectImage" src="https://via.placeholder.com/450" alt="project screenshot" /> 
 
           <p class="projDesc">
             Normally, both your asses would be dead as fucking fried chicken, 
@@ -109,7 +134,7 @@
         <h3>Project 3</h3>
           
         <article class="showProject3">
-          <img src="https://via.placeholder.com/450" alt="project screenshot" height="42" width="42"/> 
+          <img class="projectImage" src="https://via.placeholder.com/450" alt="project screenshot" /> 
           <p class="projDesc">
             Normally, both your asses would be dead as fucking fried chicken, 
             but you happen to pull this shit while I'm in a transitional period 
@@ -128,17 +153,20 @@
       
     <ul>
       <li>
-        <a href="mailto:carpenterbarrett@gmail.com">Email</a>
+        <a target=“_blank” href="mailto:carpenterbarrett@gmail.com">Email</a>
       </li>
 
       <li>
-        <a href="linkto:https://www.linkedin.com/in/barrettcarpenter/">LinkedIn</a>
+        <a target=“_blank” href="https://www.linkedin.com/in/barrettcarpenter/">LinkedIn</a>
       </li>
         
       <li>
-        <a href="linkto:https://github.com/carpenter-js">Github</a>
+        <a target=“_blank” href="https://github.com/carpenter-js">Github</a>
       </li>
     </ul>
   </section>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
