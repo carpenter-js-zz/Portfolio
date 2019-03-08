@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Barrett Carpenter Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
 </head>
 
@@ -18,173 +18,224 @@
       </li>
 
       <li>
+        <a class="navSkills" href="#skills">Skills</a>
+      </li>
+
+      <li>
         <a class="navProject" href="#projects">Projects</a>
       </li>
 
       <li>
         <a class="navContact" href="#contact">Contact Me</a>
       </li>
-
-      <li>
-        <a class="navSkills" href="#skills">Skills</a>
-      </li>
     </ul>
   </nav>
 
-  <header class="header">
+  <header class="header yellow">
     <div class="headers">
-      <h1>Barrett Carpenter</h1>
+      <h1 class="mainHeader">Barrett Carpenter</h1>
 
-      <h2>I love to code!</h2>
+      <h2 class="subHeader">Coding offers infinite creative solutions</h2>
     </div>
-    
-    <section class="skills">
-      <h3>Tools and Skills</h3>
-
-      <div class="skillsLists">
-        <ul>
-          <li>JavaScript (ES6)</li>
-          <li>CSS3</li>
-          <li>HTML5</li>
-          <li>Python</li>
-        </ul>
-      
-        <ul>
-          <li>jQuery</li>
-          <li>React/Redux</li>
-          <li>Node/Express</li>
-          <li>Mongodb/Mongoose</li>
-        </u>
-      </div>
-    </section>
   </header>
+
+  <div class="dividerDiv">
+      <span class="dividerLine"></span>
+  </div>
 
   <main>
     <section class="aboutMe">
-      <h2>About Me</h2>
-             
-      <p>
-        I am a full stack web developer and coding enthusiast. 
-        I recently finished a 6 month web development apprenticeship 
-        with Thinkful’s Engineering Immersion program. I was attracted to 
-        coding by its career potentials, and fell in love with it because 
-        of the infinite creative options it offers. I am crazy about 
-        writing clean, readable code. I love collaborating on a project 
-        with a team of coders, and adding new languages and frameworks to my 
-        toolbox. Javascript was my first love, but Python is my true love. 
-        I am most comfortable designing intuitive UI/UX on the frontend with 
-        React, with lots of experience designing RESTful api’s on the backend 
-        with Node/Express or Python with Flask.
-      </p>
-              
-      <p>
-        When I am not working on a project or learning a new technology I can 
-        be found hanging out with my wife and daughter, hiking in the Colorado 
-        front range, playing video game or reading comic books. My other creative 
-        outlet besides coding is music, I am always looking for people to jam with! 
-        I love meeting new people and talking about code, or life in general, 
-        over coffee or beer, so don’t hesitate to reach out to me through email or linkedin. 
-      </p>    
+      <h2 class="yellow">About Me</h2>
+        
+      <article class="mainContent aboutContent">
+        <div>
+          <img class="profileImg" src="https://i.imgur.com/XwLI1U0.jpg" title="source: imgur.com" />
+
+          <p class="aboutByPic">
+            I am a full stack web developer and coding enthusiast. 
+            I recently finished a 6 month web development apprenticeship 
+            with Thinkful’s Engineering Immersion program. I was attracted to 
+            coding by its career potentials, and fell in love with it because 
+            of the infinite creative options it offers. I am crazy about 
+            writing clean, readable code. I love collaborating on a project 
+            with a team of coders, and adding new languages and frameworks to my 
+            toolbox. Javascript was my first love, but Python is my true love. 
+            I am most comfortable designing intuitive UI/UX on the frontend with 
+            React, with lots of experience designing RESTful api’s on the backend 
+            with Node/Express or Python with Flask.
+          </p>
+        </div>
+                
+        <p>
+          When I am not working on a project or learning a new technology I can 
+          be found hanging out with my wife and daughter, hiking in the Colorado 
+          front range, playing video games, or reading comic books. My other creative 
+          outlet besides coding is music, I am always looking for people to jam with! 
+          I love meeting new people and talking about code, or life in general, 
+          over coffee or beer so don’t hesitate to reach out to me through email or linkedin. 
+        </p>  
+      </article>  
     </section>
+
+    <div class="dividerDiv">
+        <span class="dividerLine"></span>
+    </div>
+
+    <section class="skills">
+        <h2 class="yellow">Tools and Skills</h2>
+  
+        <article class="mainContent">
+          <div class="skillsLists">
+              <ul class="skillColumn">
+                <li>JavaScript (ES6)</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+                <li>Python</li>
+              </ul>
+            
+              <ul class="skillColumn">
+                <li>jQuery</li>
+                <li>React</li>
+                <li>Node</li>
+                <li>Mongodb</li>
+              </ul>
+
+              <ul class="skillColumn">
+                <li>Redux</li>
+                <li>React Hooks</li>
+                <li>Express</li>
+                <li>Mongoose</li>
+              </ul>
+
+              <ul class="skillColumn">
+                <li>Moccha/Chai</li>
+                <li>Enzyme/Jest</li>
+                <li>Passport</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+        </article>
+      </section>
+
+    <div class="dividerDiv">
+        <span class="dividerLine"></span>
+    </div>
       
     <section class="projects">
-      <h2>My Work</h2>
+      <h2 class="yellow">My Work</h2>
       
-      <section class="project">
-        <h3><a target=“_blank” href="https://velo-maps.herokuapp.com/">Velo Maps</a></h3>
-      
-        <article class="showProject1">
-          <a href="https://imgur.com/NIei5JJ">
-            <img class="projectImage" src="https://i.imgur.com/NIei5JJ.png" title="source: imgur.com" />
-          </a>
-
-          <p class="projDesc">
-            <a target=“_blank” href="https://velo-maps.herokuapp.com/">Velo Maps</a> is a web app that makes it easy to plan a big ride by providing users
-            access to a Google Map with a bike map overlay that they can draw on, and then save
-            that drawing in a database for easy access. I built this app because I had looked
-            for a similer tool to use for planning my own bike commutes and could not find 
-            anything like this. It seemed like the technology was all there waiting to be utilized, 
-            but no one had put it all together in an easy to use tool. So instead of waiting for 
-            someone else to build it for me, I made it myself. I wrote the code for Velo Maps
-            in Javascript, using React for the front end, Node/Express for the server, and 
-            Mongo for the backend. It is deployed and hosted with heroku, check it out
-            <a target=“_blank” href="https://velo-maps.herokuapp.com/">here</a>.
-          </p>
-        </article>
-      </section>
-      
-      <section class="project">
-        <h3><a target=“_blank” href="https://frenchmate.herokuapp.com/">French Mate</a></h3>
+      <article class="mainContent">
+        <section class="project">
+          <h3><a class="projectTitle" target=“_blank” href="https://velo-maps.herokuapp.com/">Velo Maps</a></h3>
         
-        <article class="showProject2">
-          <a class="projectImage" href="https://imgur.com/zDIMmud">
-            <img class="projectImage" src="https://i.imgur.com/zDIMmud.png" title="source: imgur.com" />
-          </a>
+          <article class="showProject1">
+            <a target=“_blank” href="https://velo-maps.herokuapp.com/">
+              <img class="projectImage" src="https://i.imgur.com/NIei5JJ.png" title="source: imgur.com" />
+            </a>
 
-          <p class="projDesc">
-              <a target=“_blank” href="https://frenchmate.herokuapp.com/">French Mate</a> 
-              is a language learning app built around spaced repetition, 
-              which is a learning method where if you get the definition of a word 
-              wrong you see it more frequently, and if you get it correct you see it 
-              less frequently. This method is achieved through an algorithm in the 
-              backend which changes the order of upcoming questions, stored in a 
-              Javascript built in array imitating a linked list, depending on wether 
-              the answer is correct or not. I built this project with one other 
-              programer, Randy Sartor. I primarily worked on the backend server 
-              endpoints, setting up the Redux store for our React front end, and 
-              writing asynchronous front end server requests. We designed our spaced 
-              repetition algorithm jointly by pair programming. Check it out 
-              <a target=“_blank” href="https://frenchmate.herokuapp.com/">Here</a>.
-          </p>
-        </article>
-      </section>
-  
-      <section class="project">
-        <h3><a target=“_blank” href="https://helpful-client.herokuapp.com/">Helpful</a></h3>
+            <p class="projDesc">
+              <a target=“_blank” href="https://velo-maps.herokuapp.com/">Velo Maps</a> 
+              is a web app that makes it easy to plan a big ride by providing users
+              access to a Google Map with a bike map overlay that they can draw on, and then save
+              that drawing in a database for easy access. I built this app because I had looked
+              for a similer tool to use for planning my own bike commutes and could not find 
+              anything like this. It seemed like the technology was all there waiting to be utilized, 
+              but no one had put it all together in an easy to use tool. So instead of waiting for 
+              someone else to build it for me, I made it myself. I wrote the code for Velo Maps
+              in Javascript, using React for the front end, Node/Express for the server, and 
+              Mongo for the backend. It is deployed and hosted with heroku, check out the
+              <a target=“_blank” href="https://velo-maps.herokuapp.com/">live site</a>, or the 
+              <a target=“_blank” href="https://github.com/carpenter-js/Velo-Maps">github repo</a>.
+            </p>
+          </article>
+        </section>
+        
+        <section class="project">
+          <h3><a class="projectTitle" target=“_blank” href="https://frenchmate.herokuapp.com/">French Mate</a></h3>
           
-        <article class="showProject3">
-          <a target=“_blank” href="https://helpful-client.herokuapp.com/">
-            <img class="projectImage" src="https://i.imgur.com/f0ucfwe.png" title="source: imgur.com" />
-          </a>
+          <article class="showProject2">
+              <a target=“_blank” href="https://frenchmate.herokuapp.com/">
+              <img class="projectImage" src="https://i.imgur.com/zDIMmud.png" title="source: imgur.com" />
+            </a>
 
-          <p class="projDesc">
+            <p class="projDesc">
+                <a target=“_blank” href="https://frenchmate.herokuapp.com/">French Mate</a> 
+                is a language learning app built around spaced repetition, 
+                a learning method where if you get the definition of a word 
+                wrong you see it more frequently, and if you get it correct you see it 
+                less frequently. This method is achieved through an algorithm in the 
+                backend which changes the order of upcoming questions depending on wether 
+                the answer is correct or not. I built this project with one other 
+                programer, Randy Sartor. I primarily worked on the backend server 
+                endpoints, Mongo schemas and mongoose queries, setting up authentication 
+                with Passport and JSON Web Tokens, setting up the Redux store for our React 
+                front end, and writing asynchronous front end server requests. We 
+                designed our spaced repetition algorithm jointly by pair programming. 
+                Check out the 
+                <a target=“_blank” href="https://frenchmate.herokuapp.com/">live site</a>, 
+                or the
+                <a target=“_blank” href="https://github.com/carpenter-js/French-Mate-client">gihub repo</a>.
+            </p>
+          </article>
+        </section>
+    
+        <section class="project">
+          <h3><a class="projectTitle" target=“_blank” href="https://helpful-client.herokuapp.com/">Helpful</a></h3>
+            
+          <article class="showProject3">
             <a target=“_blank” href="https://helpful-client.herokuapp.com/">
-            Helpful</a> is a platform that connects individuals seeking opportunities to 
-            volunteer in there community with organizations seeking volunteers. 
-            Organizations post information on volunteer events that is easily accessible 
-            to any individual. Helpful was built over a three week period in a team of 
-            five programmers, with an experienced web developer as our team lead. We 
-            worked on this project in an Agile SCRUM environment in which I was the 
-            product manager. I primarily worked on the front end, designing and building 
-            the UI/UX with React, using React’s new hooks for state management. I also 
-            had plenty of opportunity to build out our RESTful api on our Node server. 
-            Working on this project, I became an expert in using git and GitHub for 
-            source control, and in using project management tools like trello, as well 
-            as designing a project and then breaking it down into user stories. Check it out 
-            <a target=“_blank” href="https://helpful-client.herokuapp.com/">here</a>
-          </p>
-        </article>
-      </section>
+              <img class="projectImage" src="https://i.imgur.com/f0ucfwe.png" title="source: imgur.com" />
+            </a>
+
+            <p class="projDesc">
+              <a target=“_blank” href="https://helpful-client.herokuapp.com/">
+              Helpful</a> is a platform that connects individuals seeking opportunities to 
+              volunteer in there community with organizations seeking volunteers. 
+              Organizations post information on volunteer events that is easily accessible 
+              to any individual. Helpful was built over a three week period in a team of 
+              five programmers, with an experienced web developer as our team lead. We 
+              worked on this project in an Agile SCRUM environment in which I was the 
+              product manager. I primarily worked on the front end, designing and building 
+              the UI/UX with React, using React’s new hooks for state management. I also 
+              had plenty of opportunity to build out our RESTful api on our Node server. 
+              Working on this project, I became an expert in using git and GitHub for 
+              source control, and in using project management tools like trello, as well 
+              as designing a project and then breaking it down into user stories. Check out the 
+              <a target=“_blank” href="https://helpful-client.herokuapp.com/">live site</a> or the 
+              <a target=“_blank” href="https://github.com/thinkful-ei26/Helpful-Client">github repo</a>
+            </p>
+          </article>
+        </section>
+      </article>
+    </section>
+  
+    <div class="dividerDiv">
+        <span class="dividerLine"></span>
+    </div>
+
+    <section class="contactInfo">
+      <h2 class="yellow">Contact Barrett</h2>
+      
+      <article class="mainContent">
+        <ul class="contactList">
+          <li>
+            Email: 
+            <a target=“_blank” href="mailto:carpenterbarrett@gmail.com">carpenterbarrett@gmail.com</a>
+          </li>
+
+          <li>
+            <a target=“_blank” href="https://www.linkedin.com/in/barrettcarpenter/">LinkedIn</a>
+          </li>
+            
+          <li>
+            <a target=“_blank” href="https://github.com/carpenter-js">Github</a>
+          </li>
+        </ul>
+      </article>
     </section>
   </main>
 
-  <section class="contactInfo">
-    <h4>Contact Me</h4>
-      
-    <ul>
-      <li>
-        <a target=“_blank” href="mailto:carpenterbarrett@gmail.com">Email</a>
-      </li>
-
-      <li>
-        <a target=“_blank” href="https://www.linkedin.com/in/barrettcarpenter/">LinkedIn</a>
-      </li>
-        
-      <li>
-        <a target=“_blank” href="https://github.com/carpenter-js">Github</a>
-      </li>
-    </ul>
-  </section>
+  <div class="bottom"></div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
