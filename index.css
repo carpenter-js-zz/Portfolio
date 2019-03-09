@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   display: block;
   margin: 0;
-  background: rgb(168, 223, 241);
+  background: rgb(241, 241, 241);
 }
 
 .mainContent {
@@ -14,7 +14,7 @@ body {
 
 .yellow {
   padding: 10px;
-  background: rgb(248, 236, 66);
+  background: rgb(172, 103, 0);
 }
 
 .header {
